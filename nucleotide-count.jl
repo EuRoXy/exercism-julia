@@ -20,7 +20,7 @@ function count_nucleotides(strand)
         elseif n == 'T'
             t += 1
         else
-            throw(DomainError("Only A,  C, G or T allowed."))
+            throw(DomainError("Only A, C, G or T allowed."))
         end
        
     end
