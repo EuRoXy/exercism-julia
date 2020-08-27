@@ -20,10 +20,10 @@ function count_nucleotides(strand)
         elseif n == 'T'
             t += 1
         else
-            throw(DomainError("Only A,  "))
+            throw(DomainError("Only A,  C, G or T allowed."))
         end
        
     end
     
-    return Dict('A' => num_A, 'C' => num_C, 'G' => num_G, 'T' => num_T)
+    return Dict('A' => a, 'C' => c, 'G' => g, 'T' => t)
 end
