@@ -1,0 +1,1 @@
+isarmstrong(num::Int) = sum(digits(num) .^ length(digits(num))) == num

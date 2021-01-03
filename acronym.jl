@@ -1,0 +1,1 @@
+acronym(phrase) = String(first.(split(replace(uppercase(phrase), r"[-_,]"=>" "))))
